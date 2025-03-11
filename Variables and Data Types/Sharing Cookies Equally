@@ -1,0 +1,16 @@
+You and your friends are having a cookie-baking party, and you want to ensure that each person gets an equal share of cookies. You have a total number of cookies baked, and you need to divide them equally among your friends
+Note:
+
+1. Ask the user to input the total number of cookies baked.
+2. Ask the user to input the number of friends present.
+3. Calculate how many cookies each friend will get if the cookies are divided equally among them.
+4. Print the total number of cookies each friend will get.
+
+
+
+
+Total_cookies = int(input("enter the total number of cookies baked"))
+Number_of_friends = int(input("enter the total number of friends present"))
+
+Cookies_per_friend = Total_cookies // Number_of_friends
+print(Cookies_per_friend)
