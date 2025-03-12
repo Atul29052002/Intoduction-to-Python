@@ -1,0 +1,16 @@
+Problem statement
+Given an integer, check if it is prime or not. Return True if the number is prime, otherwise False.
+
+def check_prime(num):
+  for div in range (2,num):
+    if num % div == 0:
+      return False
+  return True
+
+num = int(input("Enter the Number to be checked"))
+result = check_prime(num)
+if result == True :
+  print(num, " is a prime number")
+else:
+  print(num," is not a prime number")
+  
